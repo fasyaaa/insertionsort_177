@@ -7,7 +7,7 @@ int n;                 //Membuat Variable inputan n
 void input() {          //Procedure Input
     while (true) {
         cout << "Masukkan Jumlah Data pada Array : ";           //Membuat Inputan jumlah element array
-        cin >> n;                                               //Memanggil vatiable inputan n
+        cin >> n;                                               //Memanggil variable inputan n
 
         if (n <= 20) {                                          //Membuat kondisi n tidak lebih dari 20
             break;
