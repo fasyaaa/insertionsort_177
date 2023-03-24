@@ -38,8 +38,14 @@ void insertionsort() {                                  //Procedure Insertionsor
         while (j >= 0 && arr[j] > temp)                 // 4. Looping while dimana nilai j lebih besar sama dengan 0 dan
                                                         // ar[j] lebih besar daripada temp
         {               
+            arr[j + 1] = arr[j];
+            j--;
+        }
+        arr[j + 1] = temp;
+
+        cout << "\nPass " << i << ": ";
+        for (int k = 0; k < n; k++) {
 
         }
-
     }
 }
