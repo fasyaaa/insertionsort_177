@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int arr[20];            //Membuat array dengan panjang data 20
-int n;                 //Membuat Variable inputan n
+double arr[20];            //Membuat array dengan panjang data 20
+double n;                 //Membuat Variable inputan n
 
 void input() {          //Procedure Input
     while (true) {
@@ -59,7 +59,8 @@ void display() {                                                //Procedure disp
     for (int j = 0; j < n; j++) {                               //Looping dengan j dimulai dari 0 hingga n - 1
         cout << arr[j] << endl;                                 //Output ke layar
     }
-    cout << endl;                                               //Output baris kosong
+    cout << endl;     
+    //Output baris kosong
 }
 
 int main() {                                                    
